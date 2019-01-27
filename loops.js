@@ -7,4 +7,5 @@ function forLoop(alpha) {
       alpha.push("I am ${i}  strange loop.")
     }
   }
+  return alpha
 }
