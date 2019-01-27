@@ -4,7 +4,7 @@ function forLoop(alpha) {
       alpha.push("I am ${i} strange loops.")
     }
     else {
-      alpha.push("I am " + i  + " strange loop.")
+      alpha.push("I am ${i}  strange loop.")
     }
   }
 }
