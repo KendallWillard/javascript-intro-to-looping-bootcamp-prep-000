@@ -9,3 +9,9 @@ function forLoop(alpha) {
   }
   return alpha
 }
+
+function whileLoop(num) {
+  while( num-- > 0 ) {
+    
+  }
+}
