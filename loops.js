@@ -17,6 +17,14 @@ function whileLoop(num) {
   return "done"
 }
 
-function doWhileLoop(myArr) {
-  
+var incVar = 0;
+
+function incrementVariable() {
+  incVar = incVar + 1;
 }
+function doWhileLoop(myArr) {
+  do {
+  myArr.pop()
+  } while (myArr.length > 0 && incrementVariable)
+}
+
