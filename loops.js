@@ -26,5 +26,7 @@ function doWhileLoop(myArr) {
   do {
   myArr.pop()
   } while (myArr.length > 0 && incrementVariable)
+  
+  return myArr
 }
 
